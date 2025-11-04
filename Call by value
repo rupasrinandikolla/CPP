@@ -1,0 +1,12 @@
+#include <iostream> 
+using namespace std; 
+void modify (int  x) { 
+    x = x + 5 ;  
+} 
+int main() { 
+    int a = 10;   
+    cout << "Value of a before function call: " << a << endl ; 
+    modify(a) ;  
+    cout << "Value of a after function call: " << a << endl;   
+    return 0; 
+} 
